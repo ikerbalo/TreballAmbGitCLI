@@ -1,0 +1,56 @@
+/* menu */
+
+#menu {
+list-style:none;
+font-weight:400;
+font-size:15px;
+margin:0px;
+padding:0px;
+}
+   
+   /* enlaces del menu */
+   
+a {
+display:block;
+text-decoration:none;
+font-weight:400;
+font-size:15px;
+padding:10px;
+letter-spacing:1px;
+}
+   
+   /* items del menu */
+   
+#menu li {
+background-color: lime;
+position:relative;
+display: inline-block;
+margin:0px;
+padding:10px;
+}
+
+   /* menu desplegable */
+
+#menu li ul {
+display:none;
+position:absolute;
+top:100%;
+left:0;
+padding:0px;
+margin: 0px;
+}
+   
+   /* items del menu desplegable */
+   
+#menu li ul li {
+background-color: rgb(154, 255, 154);
+list-style: none;
+float:none;
+width:150px
+}
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+#menu li:hover > ul {
+display:block;
+}
